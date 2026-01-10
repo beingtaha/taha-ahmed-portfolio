@@ -21,6 +21,15 @@ const Projects = () => {
       live: "https://islamic-guide-web.vercel.app/",
       image: "/images/projects/islamic.png",
     },
+    {
+      title: "ShopEasy - E-commerce Website",
+      description:
+        "A full-featured e-commerce platform with product browsing, cart functionality, and secure checkout.",
+      tech: ["React", "JavaScript", "CSS", "E-commerce", "State Management"],
+      github: "https://github.com/beingtaha/ecommerce-website-react",
+      live: "https://ecommerce-website-react-dusky.vercel.app/",
+      image: "/images/projects/shopeasy.png",
+    },
   ];
 
   return (

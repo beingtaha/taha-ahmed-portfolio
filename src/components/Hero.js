@@ -49,6 +49,13 @@ const Hero = () => {
           >
             Live Project 2
           </a>
+          <a
+            href="https://ecommerce-website-react-dusky.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live Project 3
+          </a>
         </div>
       </div>
     </section>
