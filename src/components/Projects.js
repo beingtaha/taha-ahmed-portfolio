@@ -1,5 +1,5 @@
 import React from "react";
-import "./Projects.css";
+import "./Project.css";
 
 const Projects = () => {
   const projects = [
@@ -24,11 +24,31 @@ const Projects = () => {
     {
       title: "ShopEasy - E-commerce Website",
       description:
-        "A full-featured e-commerce platform with product browsing, cart functionality, and secure checkout.",
+        "A full-featured e-commerce platform with product browsing, cart functionality, and secure checkout system.",
       tech: ["React", "JavaScript", "CSS", "E-commerce", "State Management"],
       github: "https://github.com/beingtaha/ecommerce-website-react",
       live: "https://ecommerce-website-react-dusky.vercel.app/",
-      image: "/images/projects/shopeasy.png",
+      image: "/images/projects/shopeasy.PNG",
+    },
+    {
+      title: "Student Management App",
+      description:
+        "React application for managing student records with add, edit, delete functionality.",
+      tech: ["React", "useState", "CRUD", "CSS"],
+      github: "https://github.com/beingtaha",
+      live: "#",
+      image:
+        "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500&auto=format&fit=crop&q=80",
+    },
+    {
+      title: "Product Listing App",
+      description:
+        "E-commerce style product listing with filtering and dynamic rendering.",
+      tech: ["React", "Components", "Filtering", "UI/UX"],
+      github: "https://github.com/beingtaha",
+      live: "#",
+      image:
+        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&auto=format&fit=crop&q=80",
     },
   ];
 
